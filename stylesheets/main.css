@@ -5,11 +5,13 @@ h1 {
 }
 
 .archives {
-    padding: 3%;
+    padding: 5%;
     float: right;
 }
 
 .archives.links {
-    
+    text-align: center;
+    color: blue;
     list-style-type: none;
+    white-space: nowrap;
 }
