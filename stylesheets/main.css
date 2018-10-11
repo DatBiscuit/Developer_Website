@@ -1,0 +1,15 @@
+h1 {
+    padding: 1% 5% 1% 5%;
+    background: black;
+    color: white;
+}
+
+.archives {
+    padding: 3%;
+    float: right;
+}
+
+.archives.links {
+    
+    list-style-type: none;
+}
