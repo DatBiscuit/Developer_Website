@@ -11,7 +11,7 @@ h1 {
     float: right;
 }
 
-.links {
+#links {
     text-align: center;
     color: blue;
     list-style-type: none;

@@ -41,14 +41,25 @@ function setupMonthsToLoad() {
             addToMonths(monthName, monthsParent);
            
             //Create and add to the links
+            addToLinks(currentMonths[j], currentYears[i]);
         }
     }
 }
 
 
 //To Do
-function addToLinks(month) {
-    
+function addToLinks(month, year) {
+    var parent = document.getElementById('links');
+    var newA = document.createElement('A');
+    newA.setAttribute('href', '#');
+    newA.innerHTML = month + " 20" + year;
+    newA.addEventListener('click', function() {
+        show(month+year);
+    });
+
+    var newItem = document.createElement('li');
+    newItem.appendChild(newA);
+    parent.appendChild(newItem);
 }
 
 // Add to the months divider
