@@ -13,12 +13,35 @@
             <h3 class="font-weight-light">
                 Archives
             </h3>
-            <ul class="archives links">
-                <li>October 2018</li>
+            <ul class="links">
+                <li>January 2019</li>
+                <li>
+                    <a href="#" onclick="show('December18')">December 2018</a>
+                </li>
+                <li>
+                    <a href="#" onclick="show('November18')">November 2018</a>
+                </li>
+                <li>
+                    <a href="#" onclick="show('October18')">October 2018</a>
+                </li>
             </ul>
         </div>
 
+        <div id="months"></div>
+
+
+        <div id="singlemonth">
+            <div id="placeholder"></div>
+        </div>
+        
+
         <script src="../jquery.js"></script> 
+        <script>
+            // function that setup the navigation bar at the top
+            $(function() {
+                $('#nav-placeholder').load('navbar.html');
+            });
+        </script>
         <script src="../javascript/header.js"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

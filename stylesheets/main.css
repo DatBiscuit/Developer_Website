@@ -5,13 +5,38 @@ h1 {
 }
 
 .archives {
+    text-align: center;
+    color: black;
     padding: 5%;
     float: right;
 }
 
-.archives.links {
+.links {
     text-align: center;
     color: blue;
     list-style-type: none;
     white-space: nowrap;
+}
+
+.spacer {
+    padding: 1%;
+}
+
+#months {
+    margin: auto;
+    width: 70%;
+    padding: 2%;
+}
+
+#singlemonth {
+    margin: auto;
+    width: 70%;
+    padding: 2%;
+}
+
+
+a {
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
 }
