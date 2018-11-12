@@ -1,0 +1,31 @@
+h2 {
+    text-align: center; 
+    padding: 1% 0% 2% 0%;
+    color: grey;
+}
+
+.card {
+    margin: 1%;
+}
+
+.btn-link {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.btn-link.focus, .btn-link:focus {
+    text-decoration: none;
+}
+
+.card-header {
+    background-color: black;
+}
+
+#contact {
+    align-self: center;
+}

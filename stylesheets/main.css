@@ -4,39 +4,28 @@ h1 {
     color: white;
 }
 
-.archives {
-    text-align: center;
-    color: black;
-    padding: 5%;
+.card-deck {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    width: auto;
+    height: 700px;
+    object-fit: cover;
+}
+
+#samplevideos {
+    margin: 15%;
+}
+
+.align-right {
     float: right;
-}
-
-#links {
-    text-align: center;
-    color: blue;
-    list-style-type: none;
-    white-space: nowrap;
-}
-
-.spacer {
-    padding: 1%;
-}
-
-#months {
-    margin: auto;
-    width: 70%;
-    padding: 2%;
-}
-
-#singlemonth {
-    margin: auto;
-    width: 70%;
-    padding: 2%;
-}
-
-
-a {
-    text-decoration: none;
-    border: none;
-    box-shadow: none;
 }

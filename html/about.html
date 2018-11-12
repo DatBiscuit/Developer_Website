@@ -4,9 +4,141 @@
         <h1>Exterminaut</h1>
         <link rel="stylesheet" href="../stylesheets/main.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="../stylesheets/aboutCards.css">
     </head>
     <body>
         <div id="nav-placeholder"></div>
+
+        <h2>About</h2>
+
+        <div class="card text-white bg-dark mb-3">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      What is this game about?
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne">
+                  <div class="card-body">
+                        Player controls one soldier from a massive army to go out and handle missions. 
+                        The area is overrun with alien life forms and destructible terrain. The farther you venture out 
+                        the more barren and run over it will be. The player's objective is to defeat the queen of the hive.  More to come so stay tuned ;)
+                  </div>
+                </div>
+        </div>
+
+        <div class="card text-white bg-dark mb-3">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                      What is the Gameplay like?
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo">
+                  <div class="card-body">
+                        Flash arcade with a galactice theme, this Twin stick roguelite game will contain:
+                        <ul>
+                            <li>Infinitely destructible terrain</li>
+                            <li>High paced arcade-y action</li>
+                            <li>4 Player co-op</li>
+                            <li>Equipment is the only modifier of stat on the player</li>
+                            <li>Randomly Generated biomes that have different strengths and weaknesses</li>
+                            <li>Guns, guns, guns,.... lots of guns</li>
+                        </ul>
+                  </div>
+                </div>
+        </div>
+
+        <div class="card text-white bg-dark mb-3">
+                <div class="card-header" id="heading3">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
+                      What Game Engine are you using?
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapse3" class="collapse" aria-labelledby="heading3">
+                  <div class="card-body">
+                    We are using SDL and MinGW. Coding wise, all code is written in C++;
+                  </div>
+                </div>
+        </div>
+
+        <div class="card text-white bg-dark mb-3">
+                <div class="card-header" id="heading4">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
+                      I want to suggest a feature for the game! How can I contact you guys?
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapse4" class="collapse" aria-labelledby="heading4">
+                  <div class="card-body">
+                    Sorry, but we will not be taking suggestings due to the fact that Armin will 99% of the time roast your idea.
+                    Unless it is a good idea we might consider it, but we will just keep it closed for now.
+                    So to not hurt your feelings we will keep it closed from suggestions. :)
+                  </div>
+                </div>
+        </div>
+
+        <div class="card text-white bg-dark mb-3">
+                <div class="card-header" id="heading5">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                      What are the system requirements?
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapse5" class="collapse" aria-labelledby="heading5">
+                  <div class="card-body">
+                        This is a rough estimate of what the requiments will be. <p></p>
+                        <img src="../photos/systemreq.png" alt="">
+                  </div>
+                </div>
+        </div>
+
+        <div class="card text-white bg-dark mb-3">
+                <div class="card-header" id="heading6">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                      Don't see your question?
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapse6" class="collapse" aria-labelledby="heading6">
+                  <div class="card-body">
+                    Send us your question and we'll upload an answer as soon as possible! 
+                    
+                    <p></p>
+                    <div class="contact">
+                            <form action="https://www.enformed.io/7z50eo33" method="POST" >
+                                <!-- <div class="form-group">
+                                    <label>Name</label>
+                                    <input name="first_name" type="text" class="form-control"/>
+                                </div> -->
+                
+                                <div class="form-group">
+                                    <label>Your message</label>
+                                    <textarea name="message" type="text" class="form-control"/></textarea>
+                                </div>
+                
+                                
+                                <!-- Submit your form with a button -->
+                                <button type="submit" class="btn btn-default">Submit Me</button>
+                            </form>
+                    </div>
+
+                  </div>
+                </div>
+        </div>
 
         <script src="../jquery.js"></script> 
         <script>
@@ -15,6 +147,7 @@
                 $('#nav-placeholder').load('navbar.html');
             });
         </script>
+
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
