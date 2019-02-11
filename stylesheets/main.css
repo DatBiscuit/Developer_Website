@@ -2,6 +2,7 @@ h1 {
     padding: 1% 5% 1% 5%;
     background: black;
     color: white;
+    font: bold, "Lucida Console", Monaco, monospace;
 }
 
 .card-deck {
@@ -17,8 +18,8 @@ h1 {
 }
 
 .carousel-item img {
-    width: auto;
-    height: 700px;
+    width: 10%;
+    height: 10%;
     object-fit: cover;
 }
 
@@ -29,3 +30,38 @@ h1 {
 .align-right {
     float: right;
 }
+
+
+#slider {
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#slider #slides {
+    display: block;
+    width: 6000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
+.slide img {
+    position: relative;
+    width:  720px;
+    height: 400px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+

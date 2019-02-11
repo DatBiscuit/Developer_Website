@@ -47,7 +47,7 @@ function setupMonthsToLoad() {
 }
 
 
-//Adds teh links in the archives section
+//Adds the links in the archives section
 function addToLinks(month, year) {
     var parent = document.getElementById('links');
     var newA = document.createElement('A');
