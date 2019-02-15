@@ -5,7 +5,7 @@ h2 {
 }
 
 .card {
-    margin: 1%;
+    margin: 1% 9% 1% 9%;
 }
 
 .btn-link {
@@ -28,4 +28,11 @@ h2 {
 
 #contact {
     align-self: center;
+}
+
+h1 {
+    padding: 1% 5% 1% 5%;
+    background: black;
+    color: white;
+    font: bold, "Lucida Console", Monaco, monospace;
 }
