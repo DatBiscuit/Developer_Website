@@ -22,7 +22,7 @@ var MONTHS = (function () {
 
 //Sets the months and years all in the months divider
 function setupMonthsToLoad() {
-    //Create the variables well use
+    //Create the variables we'll use
     var currentYears = MONTHS.getYears();
     var currentMonths = MONTHS.getMonths();
     var monthsParent = document.getElementById("months");

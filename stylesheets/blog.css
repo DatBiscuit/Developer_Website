@@ -50,3 +50,15 @@ a {
 #nav-placeholder {
     float: center;
 }
+
+
+h1 {
+    padding: 1% 5% 1% 5%;
+    background: black;
+    color: white;
+    font: bold, "Lucida Console", Monaco, monospace;
+}
+
+body {
+    background: #f1f1f1;
+}
